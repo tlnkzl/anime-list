@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
+import StickyFooter from './components/footer/Footer';
+import Navbar from './components/header/Navbar';
+import Home from './components/'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a>
-          Welcome to Anime List :P
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+        <Home></Home>
+      <StickyFooter/>
+    </>
   );
 }
 
